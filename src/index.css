@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.seat-section {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  margin-bottom: 25px;
+}
+.single-seat {
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 0 5px 5px;
+  cursor: pointer;
+}
+
+.selected {
+  background: yellow;
+}
+
+.book-seat-button {
+  padding: 10px;
+}
+
+.button-container {
+  width: 100%;
+  text-align: center;
+}
